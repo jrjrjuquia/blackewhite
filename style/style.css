@@ -4,14 +4,14 @@
 
 :root {
 
-    --cor0:#F1EDDA;
-    --cor1:#5CD6D9;
-    --cor2:#52BDBF;
+    --cor0:#A8B0BF;
+    --cor1:#F29829;
+    --cor2:#F29829;
     --cor3:#357475;
-    --cor4:#1C3F3F;
-    --cor5:#1C3F3F;
+    --cor4:#401C19;
+    --cor5:#0D0D0D;
 
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: Tahoma, sans-serif;
     --fonte2:  'Mochiy Pop One', sans-serif;
     --fonte3: 'Water Brush', cursive;
 }
@@ -74,7 +74,7 @@ nav {
 
 }
 nav > a {
-    color: var(--cor1);
+    color: var(--cor0);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -182,7 +182,7 @@ footer {
     background-color: var(--cor5);
     color:white;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.0em;
     padding: 3.5px;
 }footer a{
     color: white;
@@ -191,5 +191,5 @@ footer {
 }
 footer a:hover {
     text-decoration: underline;
-    color: #2fa866;
+    color: var(--cor1);
 }
